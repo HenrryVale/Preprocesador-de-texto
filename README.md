@@ -17,3 +17,11 @@ El programa esperará leer un archivo `raw-text.txt` que será provisto por el m
 ### Ejemplo:
 * `raw-text.txt`: El curso de Python cuesta 100 soles y es excelente. ¡Lo recomiendo!
 * `processed-text.txt`: ['curso', 'python', 'cuesta', 'soles', 'excelente.', 'recomiendo']
+
+# Resultado
+
+## Input
+![imagen](https://github.com/user-attachments/assets/c19e5c0b-da44-4fd0-bce2-c0465be7aa44)
+
+## Output
+![imagen](https://github.com/user-attachments/assets/bfaac326-266b-4da6-8b5a-47b69a6d7024)
