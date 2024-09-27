@@ -20,4 +20,7 @@ texto_a_procesar = validar_txt('raw-text.txt')
 stop_words = validar_txt('stop-words.txt')
 #Filtar stop-words
 resultado = [token for token in texto_a_procesar if token not in stop_words]
-print(resultado)
+
+#Crear archivo processed-text.txt
+with open('processed-text.txt', 'w', encoding='utf-8') as file:
+        file.write(str(resultado))
